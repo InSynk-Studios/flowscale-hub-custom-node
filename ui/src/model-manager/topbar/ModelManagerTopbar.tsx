@@ -69,7 +69,7 @@ export default function ModelManagerTopbar() {
         px={1}
         height={TOPBAR_BUTTON_HEIGHT + "px"}
       >
-        Models
+       CivitAi Models
       </Button>
       {route === "modelList" && (
         <ModelsListDrawer onClose={() => setRoute("root")} />
